@@ -1,0 +1,693 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wb:data page="1" pages="1" per_page="300" total="69" sourceid="2" lastupdated="2024-03-28" xmlns:wb="http://www.worldbank.org">
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2022</wb:date>
+    <wb:value>1920095779022.73</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2021</wb:date>
+    <wb:value>1649622821885.14</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2020</wb:date>
+    <wb:value>1476107231194.11</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2019</wb:date>
+    <wb:value>1873288205186.45</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2018</wb:date>
+    <wb:value>1916933898038.36</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2017</wb:date>
+    <wb:value>2063514977334.32</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2016</wb:date>
+    <wb:value>1795693482652.52</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>1802212206904.68</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2014</wb:date>
+    <wb:value>2456043727198.85</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2013</wb:date>
+    <wb:value>2472819535742.73</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2012</wb:date>
+    <wb:value>2465227803011.57</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2011</wb:date>
+    <wb:value>2616156223977.47</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2010</wb:date>
+    <wb:value>2208837745214.23</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2009</wb:date>
+    <wb:value>1666996438681.46</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2008</wb:date>
+    <wb:value>1695855083552.05</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2007</wb:date>
+    <wb:value>1397114486471.38</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2006</wb:date>
+    <wb:value>1107626541710.74</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2005</wb:date>
+    <wb:value>891633839853.105</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2004</wb:date>
+    <wb:value>669289424806.307</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2003</wb:date>
+    <wb:value>558233745651.874</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2002</wb:date>
+    <wb:value>509795273806.715</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2001</wb:date>
+    <wb:value>559983634798.981</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="BR">Brazil</wb:country>
+    <wb:countryiso3code>BRA</wb:countryiso3code>
+    <wb:date>2000</wb:date>
+    <wb:value>655448231983.527</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2022</wb:date>
+    <wb:value>217581324512.059</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2021</wb:date>
+    <wb:value>214667807441.202</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2020</wb:date>
+    <wb:value>188480337285.605</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2019</wb:date>
+    <wb:value>205252760889.364</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2018</wb:date>
+    <wb:value>212049447242.111</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2017</wb:date>
+    <wb:value>199844406013.531</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2016</wb:date>
+    <wb:value>193148146586.933</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>195683527003.375</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2014</wb:date>
+    <wb:value>235458133124.608</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2013</wb:date>
+    <wb:value>238907690051.13</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2012</wb:date>
+    <wb:value>242029307133.408</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2011</wb:date>
+    <wb:value>282995942006.557</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2010</wb:date>
+    <wb:value>297124961971.501</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2009</wb:date>
+    <wb:value>331308500253.274</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2008</wb:date>
+    <wb:value>355908689477.445</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2007</wb:date>
+    <wb:value>318902829550.733</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2006</wb:date>
+    <wb:value>273546728473.073</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2005</wb:date>
+    <wb:value>247875422204.414</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2004</wb:date>
+    <wb:value>240963562236.127</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2003</wb:date>
+    <wb:value>202370140236.265</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2002</wb:date>
+    <wb:value>154564203586.954</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2001</wb:date>
+    <wb:value>136309295225.34</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="GR">Greece</wb:country>
+    <wb:countryiso3code>GRC</wb:countryiso3code>
+    <wb:date>2000</wb:date>
+    <wb:value>130457756628.436</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2022</wb:date>
+    <wb:value>25439700000000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2021</wb:date>
+    <wb:value>23315080560000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2020</wb:date>
+    <wb:value>21060473613000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2019</wb:date>
+    <wb:value>21380976119000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2018</wb:date>
+    <wb:value>20533057312000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2017</wb:date>
+    <wb:value>19477336549000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2016</wb:date>
+    <wb:value>18695110842000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2015</wb:date>
+    <wb:value>18206020741000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2014</wb:date>
+    <wb:value>17550680174000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2013</wb:date>
+    <wb:value>16843190993000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2012</wb:date>
+    <wb:value>16253972230000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2011</wb:date>
+    <wb:value>15599728123000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2010</wb:date>
+    <wb:value>15048964444000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2009</wb:date>
+    <wb:value>14478064934000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2008</wb:date>
+    <wb:value>14769857911000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2007</wb:date>
+    <wb:value>14474226905000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2006</wb:date>
+    <wb:value>13815586948000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2005</wb:date>
+    <wb:value>13039199193000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2004</wb:date>
+    <wb:value>12217193198000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2003</wb:date>
+    <wb:value>11456442041000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2002</wb:date>
+    <wb:value>10929112955000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2001</wb:date>
+    <wb:value>10581929774000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+  <wb:data>
+    <wb:indicator id="NY.GDP.MKTP.CD">GDP (current US$)</wb:indicator>
+    <wb:country id="US">United States</wb:country>
+    <wb:countryiso3code>USA</wb:countryiso3code>
+    <wb:date>2000</wb:date>
+    <wb:value>10250947997000</wb:value>
+    <wb:unit />
+    <wb:obs_status />
+    <wb:decimal>0</wb:decimal>
+  </wb:data>
+</wb:data>
