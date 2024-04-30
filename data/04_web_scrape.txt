@@ -192,37 +192,15 @@
 		<div class="product-wrapper card-body">
 			<img class="img-fluid card-img-top image img-responsive" alt="item" src="/images/test-sites/e-commerce/items/cart2.png">
 			<div class="caption">
-				<h4 class="price float-end card-title pull-right">$1199</h4>
+				<h4 class="price float-end card-title pull-right">$233.99</h4>
 				<h4>
-					<a href="/test-sites/e-commerce/allinone/product/122" class="title" title="MSI GL62M 7REX2">MSI GL62M 7REX...</a>
+					<a href="/test-sites/e-commerce/allinone/product/21" class="title" title="Galaxy Tab 4">Galaxy Tab 4</a>
 				</h4>
-				<p class="description card-text">MSI GL62M 7REX2, 15.6&quot; FHD, Core i7-7700HQ, 8GB, 1TB + 128GB SSD, GeForce GTX 1050 Ti 2GB, Windows 10 Home</p>
+				<p class="description card-text">LTE (SM-T235), Quad-Core 1.2GHz, 8GB, Black</p>
 
 			</div>
 			<div class="ratings">
-				<p class="review-count float-end">12 reviews</p>
-				<p data-rating="2">
-										<span class="ws-icon ws-icon-star"></span>
-										<span class="ws-icon ws-icon-star"></span>
-									</p>
-			</div>
-		</div>
-	</div>
-</div>
-			<div class="col-md-4 col-xl-4 col-lg-4">
-	<div class="card thumbnail">
-		<div class="product-wrapper card-body">
-			<img class="img-fluid card-img-top image img-responsive" alt="item" src="/images/test-sites/e-commerce/items/cart2.png">
-			<div class="caption">
-				<h4 class="price float-end card-title pull-right">$1260.13</h4>
-				<h4>
-					<a href="/test-sites/e-commerce/allinone/product/131" class="title" title="Apple MacBook Air 13&quot;">Apple MacBook...</a>
-				</h4>
-				<p class="description card-text">Apple MacBook Air 13&quot;, i5 1.8GHz, 8GB, 256GB SSD, Intel HD 6000, ENG</p>
-
-			</div>
-			<div class="ratings">
-				<p class="review-count float-end">8 reviews</p>
+				<p class="review-count float-end">1 reviews</p>
 				<p data-rating="4">
 										<span class="ws-icon ws-icon-star"></span>
 										<span class="ws-icon ws-icon-star"></span>
@@ -238,15 +216,38 @@
 		<div class="product-wrapper card-body">
 			<img class="img-fluid card-img-top image img-responsive" alt="item" src="/images/test-sites/e-commerce/items/cart2.png">
 			<div class="caption">
-				<h4 class="price float-end card-title pull-right">$1223.99</h4>
+				<h4 class="price float-end card-title pull-right">$1341.22</h4>
 				<h4>
-					<a href="/test-sites/e-commerce/allinone/product/43" class="title" title="ThinkPad Yoga">ThinkPad Yoga</a>
+					<a href="/test-sites/e-commerce/allinone/product/141" class="title" title="Dell Latitude 5580">Dell Latitude...</a>
 				</h4>
-				<p class="description card-text">12.5&quot; Touch, Core i5 4200U, 8GB, 500GB + 16GB SSD Cache, Windows</p>
+				<p class="description card-text">Dell Latitude 5580, 15.6&quot; FHD, Core i7-7600U, 16GB, 256GB SSD, GeForce GT930MX, Linux</p>
 
 			</div>
 			<div class="ratings">
-				<p class="review-count float-end">2 reviews</p>
+				<p class="review-count float-end">3 reviews</p>
+				<p data-rating="3">
+										<span class="ws-icon ws-icon-star"></span>
+										<span class="ws-icon ws-icon-star"></span>
+										<span class="ws-icon ws-icon-star"></span>
+									</p>
+			</div>
+		</div>
+	</div>
+</div>
+			<div class="col-md-4 col-xl-4 col-lg-4">
+	<div class="card thumbnail">
+		<div class="product-wrapper card-body">
+			<img class="img-fluid card-img-top image img-responsive" alt="item" src="/images/test-sites/e-commerce/items/cart2.png">
+			<div class="caption">
+				<h4 class="price float-end card-title pull-right">$489.99</h4>
+				<h4>
+					<a href="/test-sites/e-commerce/allinone/product/19" class="title" title="Galaxy Note">Galaxy Note</a>
+				</h4>
+				<p class="description card-text">12.2&quot;, 32GB, WiFi, Android 4.4, White</p>
+
+			</div>
+			<div class="ratings">
+				<p class="review-count float-end">9 reviews</p>
 				<p data-rating="3">
 										<span class="ws-icon ws-icon-star"></span>
 										<span class="ws-icon ws-icon-star"></span>
