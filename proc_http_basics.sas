@@ -6,8 +6,8 @@ SETUP
 **********************************************************/
 
 /* REQUIRED: Set path to your main folder */
-%let path = C:\Users\pestyl\OneDrive - SAS\github repos\proc_http_elevate_your_web_data_retrieval_skills; /* My local path */
-*%let path = %SYSGET(HOME);                                                                               /* My viya path */
+*%let path = C:\Users\pestyl\OneDrive - SAS\github repos\proc_http_elevate_your_web_data_retrieval_skills; /* My local path */
+%let path = %SYSGET(HOME)/Workshops/proc_http_elevate_your_web_data_retrieval_skills;                      /* My viya path */
 
 /* View path */
 %put &=path;
@@ -141,7 +141,7 @@ Create a simple macro program for the PROC HTTP response macro variable for your
 
 
 /* PRINT MESSAGE THAT CAME BACK AS AN ERROR WITHIN THE ELSE DO */
-%check_for_200;
+%check_for_200()
 
 
 /* Get a an incorrect code check when using an invalid URL. */
@@ -418,9 +418,15 @@ run;
 /***********************************************************
 ## 6. End to End ETL Using JSON Data from the World Bank API
 ### Using a Rest API
-***********************************************************/%showImage("&path/images/01_using_rest_api.jpg")
+***********************************************************/
 
+/* Typical URL path for API */
+%showImage("&path/images/01_using_rest_api.jpg")
+
+/* Parameters for an API */
 %showImage("&path/images/02_parts_url_params.jpg")
+
+
 
 /*
 ### Scenario: View the GDP of Greece, Brazil and the United States from 2000 - 2022
@@ -717,12 +723,16 @@ Test using the [Web Scraper test site](https://webscraper.io/test-sites).
 ***********************************************************/
 filename scrape "&path/data/04_web_scrape.txt";
 
-/* test site, I saved the HTML file in the data folder. Otherwise the HTML changes. */
+
+/* 
+Test site, I saved the HTML file in the data folder. Otherwise the HTML changes. 
+I also don't want to make numerious requests to the same page during testing
+*/
 
 /* 
 proc http 
         method="GET" 
-        url="https://webscraper.io/test-sites/e-commerce/allinone_test_error_url"
+        url="https://webscraper.io/test-sites/e-commerce/allinone_<test_error_url>"
         out=scrape;
 run;
 */
@@ -870,9 +880,15 @@ run;
 
 /********************************************************************
 ## General Notes:
-- Sometimes, JSON/XML RestAPI responses translate easily into a single structured table. Other times, it's a bit more complicated and requires joining data, as demonstrated in the World Bank Example. RestAPI responses are based on the design and requirements of their creators, typically optimized for their specific needs. This means that additional engineering may be necessary for our purposes.
-- Web scraping should be a last resort. The parsing of raw HTML is a fragile process. If a website changes its layout, it could break your entire pipeline. Always explore raw data sources or APIs to access data directly.
-- If possible, test your API responses in another tool like Postman. This will help identify any issues with the response and differentiate between potential problems in your SAS code or issues with the API.
+- Sometimes, JSON/XML RestAPI responses translate easily into a single structured table. Other times, 
+  it's a bit more complicated and requires joining data, as demonstrated in the World Bank Example. 
+  RestAPI responses are based on the design and requirements of their creators, typically optimized for 
+  their specific needs. This means that additional engineering may be necessary for our purposes.
+- Web scraping should be a last resort. The parsing of raw HTML is a fragile process. If a website 
+  changes its layout, it could break your entire pipeline. Always explore raw data sources or APIs 
+  to access data directly.
+- If possible, test your API responses in another tool like Postman. This will help identify any 
+  issues with the response and differentiate between potential problems in your SAS code or issues with the API.
 ********************************************************************/
 
 
