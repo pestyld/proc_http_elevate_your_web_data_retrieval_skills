@@ -7,7 +7,7 @@ SETUP
 
 /* REQUIRED: Set path to your main folder */
 *%let path = C:\Users\pestyl\OneDrive - SAS\github repos\proc_http_elevate_your_web_data_retrieval_skills; /* My local path */
-%let path = %SYSGET(HOME)/Workshops/proc_http_elevate_your_web_data_retrieval_skills;                      /* My viya path */
+%let path = %SYSGET(HOME)/http_workshop;                      /* My viya path */
 
 /* View path */
 %put &=path;
@@ -106,7 +106,11 @@ run;
 
 /*
 ### d. PROC HTTP Response Status Macro Variables
-Beginning with SAS 9.4M5, PROC HTTP sets up macro variables with certain values after it executes each statement. These macro variables can be used inside a macro to test for HTTP errors. An HTTP error is an error that is encountered after a successful host connection has been made and the HTTP request has been successfully parsed by the HTTP procedure. The macro variables do not store values for host connection errors or for PROC HTTP syntax errors. The macro variables are reset on each invocation of PROC HTTP.
+Beginning with SAS 9.4M5, PROC HTTP sets up macro variables with certain values after it executes each statement. 
+These macro variables can be used inside a macro to test for HTTP errors. An HTTP error is an error that is 
+encountered after a successful host connection has been made and the HTTP request has been successfully parsed 
+by the HTTP procedure. The macro variables do not store values for host connection errors or for PROC HTTP syntax errors. 
+The macro variables are reset on each invocation of PROC HTTP.
 
 
 SYS_PROCHTTP_STATUS_CODE
@@ -144,7 +148,7 @@ Create a simple macro program for the PROC HTTP response macro variable for your
 %check_for_200()
 
 
-/* Get a an incorrect code check when using an invalid URL. */
+/* Get an incorrect code check when using an invalid URL. */
 filename badreq temp;
 
 proc http 
@@ -283,7 +287,7 @@ run;
 %viewData(myfile.root)
 
 /* Clear your library */
-libname myfile close;
+libname myfile clear;
 
 /*
 ### b. Store authentication information in macro variables
@@ -454,7 +458,7 @@ filename jsonresp "&path/data/03_GR_US_BR_GDP.json";
 */
 proc http
 	url = 'https://api.worldbank.org/v2/country/GR;BR;US/indicator/NY.GDP.MKTP.CD/?format=json&per_page=100&date=2000:2022'  
-	out = jsonresp in='format=json&per_page'
+	out = jsonresp
 	method='GET';
 run;
 
@@ -476,7 +480,7 @@ proc http
 	url = 'https://api.worldbank.org/v2/country/GR;BR;US/indicator/NY.GDP.MKTP.CD/'
 	out = jsonresp
 	method='GET'
-    query = ('format'='json'         /* Use the the query option to add parameters */ /* check for viya3.5 */
+    query = ('format'='json'         /* Use the the query option to add parameters */
 	         'per_page'='300' 
 			 'date'='2000:2022'); 
 run;
@@ -604,7 +608,7 @@ data _null_;
     put _infile_;
 run;
 
-/* View the XML contents */
+/* View the XML contents as HTML */
 data _null_;
     file print;
 	infile xmlresp;
@@ -654,18 +658,16 @@ run;
 #### 4. Create a structured table.
 */
 proc sql;
-create table work.countries_gdp_xml as 
-	select r.countryiso3code,
+CREATE TABLE work.countries_gdp_xml as 
+	SELECT r.countryiso3code,
 		   ctry.country as Country,
 		   r.date,
 		   input(r.value,best20.) as GDP format=dollar20.,
 		   i.indicator
-		from xmlFile.data1 as r 
-		inner join xmlFile.country as ctry 
-			on r.data1_ORDINAL=ctry.data1_ORDINAL
-		inner join xmlFile.indicator as i 
-			on r.data1_ORDINAL=i.data1_ORDINAL
-		order by Country, Date;
+	FROM xmlFile.data1 as r 
+		INNER JOIN xmlFile.country as ctry ON r.data1_ORDINAL=ctry.data1_ORDINAL
+		INNER JOIN xmlFile.indicator as i ON r.data1_ORDINAL=i.data1_ORDINAL
+	ORDER BY Country, Date;
 ;
 quit;
 
@@ -716,8 +718,6 @@ title; footnote;
 
 /***********************************************************
 ## 7. Web Scraping
-
-Test using the [Web Scraper test site](https://webscraper.io/test-sites).
 
 ### a. Start by saving the HTML to a text file.
 ***********************************************************/
@@ -892,7 +892,30 @@ run;
 ********************************************************************/
 
 
+
+/*******************************************************************
+ BONUS: LOAD THE GDP DATA TO CAS TO CREATE DASHBOARD IN SAS VIYA
+ *******************************************************************
+- Many ways to get this to Visual Analytics or other Viya Applications depending on your setup.
+- Personally I would do all of data engineering with code and have the data fully prepared, labeled, formatted, etc
+  prior to creating a dashboard if at all possible. It avoids having to do extra work in the Visual Analytics.
+********************************************************************/
+cas conn;
+
+proc casutil;
+	/* Load to CAS - The LOAD statement can be optional depending on if where you saved the file previously */
+	/* For example, if you saved the final table to a database and the application can pull from the database you won't 
+       have to use LOAD then save. You would just save it to the location accessible by CAS. */
+	load data=work.countries_gdp
+		 casout='countries_gdp' outcaslib='public' replace;
+
+	/* Save to disk in a caslib */
+	save casdata='countries_gdp' incaslib='public' 
+         casout='countries_gdp.sashdat' outcaslib='public' replace;
+quit;
+
+
 /********************************************************************
 ## Any Questions?
-Feel free to connect with me on LinkedIn!
+Feel free to connect with me on LinkedIn !
 ********************************************************************/
