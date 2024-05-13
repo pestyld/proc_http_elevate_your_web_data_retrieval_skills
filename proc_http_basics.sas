@@ -7,7 +7,7 @@ SETUP
 
 /* REQUIRED: Set path to your main folder */
 *%let path = C:\Users\pestyl\OneDrive - SAS\github repos\proc_http_elevate_your_web_data_retrieval_skills; /* My local path */
-%let path = %SYSGET(HOME)/http_workshop;                      /* My viya path */
+%let path = %SYSGET(HOME)/Workshops/proc_http_elevate_your_web_data_retrieval_skills;                      /* My viya path */
 
 /* View path */
 %put &=path;
