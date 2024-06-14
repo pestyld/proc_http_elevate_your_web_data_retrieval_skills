@@ -3,8 +3,6 @@
 ## Requirements
 - Access to SAS9 or SAS Viya
 
-Hi Nicole.
-
 ## Description
 Learn about the full potential of SAS PROC HTTP in our comprehensive workshop designed for intermediate SAS users. Gain hands-on experience in seamlessly interacting with APIs, downloading data, and implementing authentication protocols.
 
